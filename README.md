@@ -41,7 +41,6 @@ graph TD
     G -->|High Risk| H[Emergency Response: Bank/Police Contact]
     G -->|Moderate Risk| I[Security Lockdown Protocol]
     G -->|Low Risk| J[Safety Alerts & Best Practices]
-```  <--- Add three backticks right here on their own line!
 
 🚀 Getting Started
 Follow these instructions to run the Kavacha mobile client locally.
