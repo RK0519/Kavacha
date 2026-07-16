@@ -26,6 +26,7 @@
 * **Frontend Framework:** React Native with **Expo** (Cross-platform iOS & Android)
 * **Voice Synthesis Engine:** Expo Speech / Customized Audio Utilities
 * **Backend Logic:** Node.js, Express (Phishing pattern analysis and triage engine)
+* 
 ---
 
 ## 🏗️ System Architecture
@@ -55,6 +56,8 @@
          │ Alerts   │  │ Lockdown │  │ Emergency│
          │ & Tips   │  │ Protocol │  │ Trigger  │
          └──────────┘  └──────────┘  └──────────┘
+```
+
 ---
 
 ## 🚀 Getting Started
@@ -64,17 +67,28 @@ Prerequisites
 Make sure you have Node.js installed on your machine. You will also need the Expo Go app installed on your physical iOS or Android device to test the mobile interface.
 
 1. Clone the Repository
-git clone [https://github.com/your-username/Kavacha.git](https://github.com/your-username/Kavacha.git)
+
+```text
+git clone https://github.com/RK0519/Kavacha.git
 cd Kavacha
+```
 
 2. Install Dependencies
+   
+```text
 npm install
+```
 
 3. Start the Expo Server
+   
+```text
 npx expo start
+```
 
 4. Run on Device
 Scan the QR code displayed in your terminal using your phone's camera (iOS) or the Expo Go app (Android) to launch Kavacha instantly.
 
-🏆 Hackathon Recognition
+---
+
+## 🏆 Hackathon Recognition
 Kavacha was built as a collaborative group project and recognized at Advaya 2.0, a premier hackathon organized by BGSIT. The project was highly praised for its real-world utility, localized approach to cybersecurity, and focus on financial inclusion for rural populations.
