@@ -42,6 +42,8 @@ graph TD
     G -->|Moderate Risk| I[Security Lockdown Protocol]
     G -->|Low Risk| J[Safety Alerts & Best Practices]
 
+---
+
 🚀 Getting Started
 Follow these instructions to run the Kavacha mobile client locally.
 
@@ -61,5 +63,5 @@ npx expo start
 4. Run on Device
 Scan the QR code displayed in your terminal using your phone's camera (iOS) or the Expo Go app (Android) to launch Kavacha instantly.
 
-## 🏆 Hackathon Recognition
+🏆 Hackathon Recognition
 Kavacha was built as a collaborative group project and recognized at Advaya 2.0, a premier hackathon organized by BGSIT. The project was highly praised for its real-world utility, localized approach to cybersecurity, and focus on financial inclusion for rural populations.
