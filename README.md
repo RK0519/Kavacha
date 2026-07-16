@@ -30,6 +30,8 @@
 
 ## 🏗️ System Architecture
 
+```mermaid
+graph TD
     A[User Input: SMS / Email / Voice] --> B[Kavacha App Interface]
     B --> C{Language Engine}
     C -->|English| D[Visual & Voice Guidance]
