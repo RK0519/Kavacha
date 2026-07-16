@@ -1,6 +1,6 @@
 # Kavacha (ಕವಚ) 🛡️
 
-[![Hackathon Achievement](https://img.shields.io/badge/Advaya%202.0-Recognized-Gold?style=for-the-badge&logo=github)](https://github.com/your-username/Kavacha)
+[![Hackathon Achievement](https://img.shields.io/badge/Advaya%202.0-Recognized-Gold?style=for-the-badge&logo=github)](https://github.com/RK0519/Kavacha)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-blue?style=for-the-badge&logo=expo)](https://expo.dev)
 
 **Kavacha** (meaning *Shield* or *Armor*) is an award-winning fintech cybersecurity solution designed to protect rural banking users from the growing threat of financial fraud and digital phishing. Developed and recognized at the **Advaya 2.0 Hackathon**, Kavacha bridges the digital divide by combining advanced threat triage with an accessible, localized mobile interface.
@@ -30,8 +30,6 @@
 
 ## 🏗️ System Architecture
 
-```mermaid
-graph TD
     A[User Input: SMS / Email / Voice] --> B[Kavacha App Interface]
     B --> C{Language Engine}
     C -->|English| D[Visual & Voice Guidance]
