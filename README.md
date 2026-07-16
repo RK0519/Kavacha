@@ -30,18 +30,31 @@
 
 ## 🏗️ System Architecture
 
-```mermaid
-graph TD
-    A[User Input: SMS / Email / Voice] --> B[Kavacha App Interface]
-    B --> C{Language Engine}
-    C -->|English| D[Visual & Voice Guidance]
-    C -->|Kannada| E[Visual & Voice Guidance]
-    B --> F[Threat Detection Engine]
-    F -->|Pattern Matching Algorithms| G{3-Tier Risk Triage}
-    G -->|High Risk| H[Emergency Response: Bank/Police Contact]
-    G -->|Moderate Risk| I[Security Lockdown Protocol]
-    G -->|Low Risk| J[Safety Alerts & Best Practices]
-
+```text
+┌────────────────────────────────────────────────────────┐
+│         1. CLIENT LAYER (React Native + Expo)          │
+│                                                        │
+│  [User Inputs] ──► [Bilingual UI] ──► [Audio Engine]  │
+│  (SMS/Mail/Call)     (ENG / KAN)      (Voice Prompts)  │
+└───────────────────────────┬────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│       2. PROCESSING & SECURITY (Node.js Engine)        │
+│                                                        │
+│  [Pattern-Matching Analyzer] ──► [3-Tier Risk Triage]  │
+└───────────────────────────┬────────────────────────────┘
+                            │
+              ┌─────────────┼─────────────┐
+              ▼             ▼             ▼
+         [LOW RISK]    [MODERATE]    [HIGH RISK]
+              │             │             │
+              ▼             ▼             ▼
+         ┌──────────┐  ┌──────────┐  ┌──────────┐
+         │ Safety   │  │ Account  │  │ 1-Tap    │
+         │ Alerts   │  │ Lockdown │  │ Emergency│
+         │ & Tips   │  │ Protocol │  │ Trigger  │
+         └──────────┘  └──────────┘  └──────────┘
 ---
 
 🚀 Getting Started
